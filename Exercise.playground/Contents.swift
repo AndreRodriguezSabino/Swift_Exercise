@@ -33,3 +33,11 @@ func personaliseTimeTable(num: Int, end: Int) {
     }
 }
 personaliseTimeTable(num: 4, end: 5)
+
+func findContents(type1: String, type2: String) -> Bool {
+    let first = type1.sorted()
+    let second = type2.sorted()
+    return first == second
+}
+findContents(type1: "efg", type2: "gef")
+
